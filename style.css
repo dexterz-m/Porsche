@@ -123,3 +123,16 @@ header{
     padding: 5px;
     margin: 5px;
 }
+
+
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    font-size: 13px;
+}
