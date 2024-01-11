@@ -84,7 +84,6 @@ header{
 
 .info{
     width: 100%;
-    border: solid;
     padding-bottom: 100px;
 }
 
@@ -124,8 +123,43 @@ header{
     margin: 5px;
 }
 
+/* Quote */
 
+.quoteContainer{
+    background-color: #E5E7EB;
+    height: fit-content;
+    margin-bottom: 10%;
+    display: flex;
+    border: center;
+    justify-content: center;
+}
 
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+}
+
+#quote{
+    font-style: italic;
+    font-weight: light;
+    font-size: 22px;
+    color: #1f2937d5;
+}
+
+#author{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 0;
+    width: 100%;
+    text-align: right;
+    color: #1f2937d5;
+}
 
 /* Footer */
 
