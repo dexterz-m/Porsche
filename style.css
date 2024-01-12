@@ -66,6 +66,10 @@ header{
     cursor: pointer;
 }
 
+.description button:hover{
+    background-color: #4789f3;
+}
+
 .descriptionImage{
     display: flex;
     width: 50%;
@@ -128,7 +132,7 @@ header{
 .quoteContainer{
     background-color: #E5E7EB;
     height: fit-content;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     display: flex;
     border: center;
     justify-content: center;
@@ -159,6 +163,56 @@ header{
     width: 100%;
     text-align: right;
     color: #1f2937d5;
+}
+
+/* Appointment */
+
+.appointmentBox{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.appointmentText{
+    width: 50%;
+    color: #F9FAF8;
+}
+
+#appointmentHead{
+    margin-top: -2px;
+    margin-bottom: 24px
+}
+
+#appointmentP{
+    font-size: 12px;
+    font-size: x-small;
+    margin-top: -20px;
+    margin-bottom: auto;
+}
+
+#Abutton{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    border-color: #3882F6;
+    color: #F9FAF8;
+    cursor: pointer;
+    border: solid;
+}
+
+#Abutton:hover{
+    background-color: #4789f3;
 }
 
 /* Footer */
